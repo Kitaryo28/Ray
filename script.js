@@ -43,37 +43,6 @@ startCounter();
 
 });
 
-// ==========================
-// VISITOR COUNTER
-// ==========================
-
-function startCounter(){
-
-const counter =
-document.getElementById("counter");
-
-let num = 0;
-
-const target =
-Math.floor(Math.random()*4000)+1000;
-
-const c = setInterval(()=>{
-
-num += 13;
-
-counter.innerText = num;
-
-if(num >= target){
-
-counter.innerText = target;
-
-clearInterval(c);
-
-}
-
-},10);
-
-}
 
 // ==========================
 // TYPEWRITER SECRET

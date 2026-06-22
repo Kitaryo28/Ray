@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>AGCL Profile</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+
+<!-- Background -->
+
+<div class="bg"></div>
+<div class="fog"></div>
+
+<!-- Particles -->
+
+<div id="particles"></div>
+
+<!-- Intro -->
+
+<section id="intro">
+
+<h1 class="glitch" data-text="CLICK TO REVEAL">
+CLICK TO REVEAL
+</h1>
+
+<button id="revealBtn">
+Reveal
+</button>
+
+</section>
+
+<!-- Loading -->
+
+<section id="loading">
+
+<div class="loader-box">
+
+<h2>ACCESSING DATABASE...</h2>
+
+<div class="loader">
+
+<div id="progress"></div>
+
+</div>
+
+<p id="percent">0%</p>
+
+</div>
+
+</section>
+
+<!-- Main -->
+
+<section id="main">
+
+<div class="profile-card">
+
+<div class="glow-circle"></div>
+
+<img
+class="pfp"
+src="https://i.postimg.cc/XvxS0Dwk/8a7e66f806ec5c00ddd377e4bc0667c1.jpg"
+alt="pfp"
+>
+
+<h1>RAY</h1>
+
+<p class="tagline">
+Anime • Extrovert • Cat Lover • Discord
+</p>
+
+<div class="divider"></div>
+
+<div class="fav-grid">
+
+<div class="fav">
+🍥 Foodie
+</div>
+
+<div class="fav">
+🔥 Extrovert
+</div>
+
+<div class="fav">
+🐱 Cat
+</div>
+
+<div class="fav">
+🎌 Anime
+</div>
+
+<div class="fav">
+💬 Discord
+</div>
+
+<div class="fav">
+❤️ AGCL
+</div>
+
+</div>
+
+<h3 class="social-title">
+CONNECT
+</h3>
+
+<div class="socials">
+
+<a
+href="https://discord.gg/YU6b9XUk"
+target="_blank">
+
+<i class="fab fa-discord"></i>
+
+</a>
+
+<a
+href="https://www.instagram.com/agcl_lover?igsh=Z3B3b3F0b3djaHd5"
+target="_blank">
+
+<i class="fab fa-instagram"></i>
+
+</a>
+
+<a
+href="https://youtube.com/@mrbeast?si=3CLo102b4I0siCv6"
+target="_blank">
+
+<i class="fab fa-youtube"></i>
+
+</a>
+
+</div>
+
+<button
+class="secret-btn"
+onclick="revealSecret()">
+
+Reveal Secret
+
+</button>
+
+<div id="secretText"></div>
+
+<div class="counter-box">
+
+👁 Visitors:
+<span id="counter">
+0
+</span>
+
+</div>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>

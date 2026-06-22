@@ -56,7 +56,7 @@ document.getElementById("secretText");
 box.innerHTML = "";
 
 const text =
-"Wake up to reality nothing ever goes as planned in this cursed world .";
+"The Honoured One hehe .";
 
 let i = 0;
 

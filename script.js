@@ -87,7 +87,7 @@ document.getElementById("secretText");
 box.innerHTML = "";
 
 const text =
-"Everyone has their own thinking. Anime lover, Itachi enjoyer, cat admirer and chaos creator.";
+"Wake up to reality nothing ever goes as planned in this cursed world .";
 
 let i = 0;
 

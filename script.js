@@ -12,11 +12,14 @@ const percent = document.getElementById("percent");
 
 btn.addEventListener("click", () => {
 
-const music =
-document.getElementById("bgMusic");
+const music = document.getElementById("bgMusic");
 
-music.play().catch(()=>{});
+music.volume = 1;
 
+music.play()
+.then(() => console.log("Audio Started"))
+.catch(err => console.log(err));
+  
 intro.style.display = "none";
 loading.style.display = "flex";
   

@@ -38,7 +38,6 @@ setTimeout(() => {
 loading.style.display = "none";
 main.style.display = "flex";
 
-startCounter();
 
 },500);
 

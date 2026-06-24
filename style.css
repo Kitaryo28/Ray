@@ -15,23 +15,26 @@ color:white;
 
 /* Background */
 
-.bg{
+.bg-video{
 position:fixed;
-inset:0;
-background:url('https://i.postimg.cc/C5RV7HnD/669e5973fca97f4672d0af0f4e39a746.jpg');
-background-size:cover;
-background-position:center;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit:cover;
 z-index:-5;
-transform:scale(1.1);
 }
 
-.bg::after{
-content:'';
-position:absolute;
-inset:0;
-background:rgba(0,0,0,.72);
+.overlay{
+position:fixed;
+top:0;
+left:0;
+width:100%;
+height:100%;
+background:rgba(0,0,0,.65);
+z-index:-4;
+pointer-events:none;
 }
-
 /* Fog */
 
 .fog{

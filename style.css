@@ -44,7 +44,7 @@ background:
 radial-gradient(circle at 20% 30%,rgba(255,0,0,.18),transparent 30%),
 radial-gradient(circle at 80% 60%,rgba(255,0,0,.15),transparent 35%),
 radial-gradient(circle at 50% 80%,rgba(255,0,0,.12),transparent 30%);
-filter:blur(60px);
+filter:blur(40px);
 animation:fogMove 15s linear infinite alternate;
 z-index:-4;
 }

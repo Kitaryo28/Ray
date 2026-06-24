@@ -12,9 +12,14 @@ const percent = document.getElementById("percent");
 
 btn.addEventListener("click", () => {
 
+const music =
+document.getElementById("bgMusic");
+
+music.play().catch(()=>{});
+
 intro.style.display = "none";
 loading.style.display = "flex";
-
+  
 let load = 0;
 
 const interval = setInterval(() => {
